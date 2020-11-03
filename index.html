@@ -6,17 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video</title>
 
-    <!-- styles -->
+    <!-- styles & fonts -->
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap" rel="stylesheet"> 
   </head>
   <body>
+
+  <!-- preloader -->
+  <div class="preloader">
+    <img src="https://i.gifer.com/ZKZx.gif" alt="preloader" />
+  </div>
+
   <!-- header -->
   <header>
     <video class="video-container" controls muted autoplay loop>
-      <source src="https://stream.mux.com/1Ja5eAaGQP2kxIW61dv5QTz6ZJ600g600l/high.mp4?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InQ5UHZucm9ZY0hQNjhYSmlRQnRHTEVVSkVSSXJ0UXhKIn0.eyJleHAiOjE2MDQyNjQ5MTEsImF1ZCI6InYiLCJzdWIiOiIxSmE1ZUFhR1FQMmt4SVc2MWR2NVFUejZaSjYwMGc2MDBsIn0.sOQS-pqnVU1R7ioiLHHgo85BZFgkhKIJ6ooHZm7Cvk21_3j6vu4CBURnozStb2qv2t5D_Tsl8Q4WDKDXzgouCRHEa6ewAO2WNNqyN0DhzGqlo2gxn6kBiv9bgTb3nSd2a28d-rIfFaChXM8oYy0ASM2lEo2FS2pIEYE-xfugET5Okfttnf3ZoPxiyM49PIsQ2lXwLmONqcylay5dF6_EzpX7O43x6hFZYhUFD1TqeOke1qwHne29FBuVG9J98s6xwMQCREI1M9Q-mffLzg9QCz2JFSr4mJa3-E_FAfsH5RqEp2MKQeXixdE4TMhL0SgftOqTr-XDmgVP03CYKIy41g" type="video/mp4" />
+      <source src="https://stream.mux.com/ArCXsA7fpWfEeR1b00el8BDKpB9LSruhw/high.mp4?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InQ5UHZucm9ZY0hQNjhYSmlRQnRHTEVVSkVSSXJ0UXhKIn0.eyJleHAiOjE2MDQzNzY5MTIsImF1ZCI6InYiLCJzdWIiOiJBckNYc0E3ZnBXZkVlUjFiMDBlbDhCREtwQjlMU3J1aHcifQ.DYZMHv4wSVBd0BMDkRKqKwgTiPDlwpliBrsBogK7KKFD3d34NmHKcQcnqdkyUwcDwDEQuvKLn1Qpak3UN-mvB1qDth4dvoAARL2AzUfxdiOODgprv_odhJlUR5UKJFlWi8AlU-s3tQxK-XFLaMt_iuOiiWcZKNrz7Bu6yDwMRLUxytaSVanVzRXrAghTB56pDTbzWv70BDx9f73yqH0ugOsBtZhoTqptcTnZ6WtV5-kohJHRQSyHDwl2BQLw2yraEYfayuVkWH4H0ARDJF2SZWw47mumx0gpp3GtUI86s4H6wXcVPw52ywQbOAv_lPQV6lGSAy-wFQWmkqdC_DQHjQ" type="video/mp4" />
     </video>
 
-    <h1>video project</h1>
+    <h1>Video Project</h1>
+    <p>@cmlohr</p>
+    
+<!-- switch control -->
+    <button class="switch-btn">
+    <span>
+      Play
+    </span>
+    <span>
+      Pause
+    </span>
+    <span class="switch"></span>
+  </button>
      </header>
     <!-- javascript -->
     <script src="app.js"></script>
